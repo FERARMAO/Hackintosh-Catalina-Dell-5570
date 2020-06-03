@@ -10,11 +10,13 @@ b) Jack Zhang's EFI folder for Mojave [click here](https://www.youtube.com/watch
 
 c) Floricello for EFI updates and modifications for compatibility with Catalina [click here](https://www.tonymacx86.com/threads/success-with-dell-inspiron-5570-macos-catalina-installation-with-and-without-the-dangerous-bios-editing.298391/) to check it out
 
+
 Laptop specifications :
 - CPU : Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
 - RAM : 8GB DDR4 2400 Mhz
 - SSD : samsung ssd 850 evo 250 go 
 - GPU : Intel UHD Graphics 620
+
 
 What is working : 
 - Graphics acceleration
@@ -25,13 +27,16 @@ What is working :
 
 Note : sound on headphones is also working, please follow 'Headphones sound fix' down below. 
 
+
 What is not working : 
 - sleep/wake 
 - wifi (you can still purchase a macOs compatible wifi card such as DW1707, DW1820A or DW1560A)
 
+
 What you need : 
 - [Clover Configurator](https://www.macupdate.com/app/mac/61090/clover-configurator) 
 - [Kext Utility](https://www.hackintoshzone.com/files/file/537-kext-utility-super-speed-edition/)
+
 
 ### EFI and clover configuration
 Basically you just have to download the EFI folder by clicking on "clone or download", or you can open your terminal and type the following command :
@@ -39,9 +44,11 @@ Basically you just have to download the EFI folder by clicking on "clone or down
 Then mount your EFI partition using clover configurator, open it, and put the EFI folder there. (replace if there is an existant EFI folder)
 That's pretty much it, now restart your laptop.
 
+
 ### Headphones sound fix
 Go to EFI/clover/kexts/other and copy codeccommander.kext and paste it in /Library/Extensions, then run kext utility, type your password, and don't close it until it's done setting up proper permissions.
 Restart your pc, headphones sound should be fixed. 
+
 
 ### !Important! : 
 I haven't done any BIOS editing so it's by default.
