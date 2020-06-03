@@ -40,7 +40,7 @@ What you need :
 
 ### EFI and clover configuration
 Basically you just have to download the EFI folder by clicking on "clone or download", or you can open your terminal and type the following command :
-``` git clone ```
+``` git clone https://github.com/FERARMAO/Hackintosh-Catalina-Dell-5570.git ```
 Then mount your EFI partition using clover configurator, open it, and put the EFI folder there. (replace if there is an existant EFI folder)
 That's pretty much it, now restart your laptop.
 
