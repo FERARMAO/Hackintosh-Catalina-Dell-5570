@@ -3,6 +3,7 @@ This is a post-install guide for macOs Catalina on a hackintosh pc, so i am assu
 If not, you can download Catalina iso image from [OLARILA website](https://www.olarila.com/topic/6278-new-olarila-images/) and download [balenaEtcher](https://www.balena.io/etcher/) to create a bootable usb drive to be able to install Catalina. (there are a lot of tutorials and guides that shows how to install it and it's pretty easy, so please go ahead and google it) 
 
 I would like to give credits to : 
+
 a) The website tonymacx86.com 
 
 b) Jack Zhang's EFI folder for Mojave [click here](https://www.youtube.com/watch?v=PZ5cgrZ_jX0&t=1s) to check it out
