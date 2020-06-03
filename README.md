@@ -4,7 +4,9 @@ If not, you can download Catalina iso image from [OLARILA website](https://www.o
 
 I would like to give credits to : 
 a) The website tonymacx86.com 
+
 b) Jack Zhang's EFI folder for Mojave [click here](https://www.youtube.com/watch?v=PZ5cgrZ_jX0&t=1s) to check it out
+
 c) Floricello for EFI updates and modifications for compatibility with Catalina [click here](https://www.tonymacx86.com/threads/success-with-dell-inspiron-5570-macos-catalina-installation-with-and-without-the-dangerous-bios-editing.298391/) to check it out
 
 Laptop specifications :
