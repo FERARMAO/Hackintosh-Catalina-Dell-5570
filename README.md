@@ -25,16 +25,14 @@ What is working :
 - display brightness/ brightness control (F11 & F12)
 - battery managment
 
-#### Note : 
-sound on headphones is also working, please follow 'Headphones sound fix' down below. 
+Note : Sound on headphones is also working, please follow 'Headphones sound fix' down below. 
 
 
 What is not working : 
 - sleep/wake 
 - wifi (you can still purchase a macOs compatible wifi card such as DW1707, DW1820A or DW1560A)
 
-#### Note :
-I have made a video on how to install DW1820A since it's the one i'm using --> please click on this link [DW1820A install](https://www.youtube.com/watch?v=KttwKmIwOBU&t=20s) to check it out.
+Note : I have made a video on how to install DW1820A since it's the one i'm using --> please click on this link [DW1820A install](https://www.youtube.com/watch?v=KttwKmIwOBU&t=20s) to check it out.
 
 
 What you need : 
