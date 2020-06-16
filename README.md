@@ -32,6 +32,8 @@ What is not working :
 - sleep/wake 
 - wifi (you can still purchase a macOs compatible wifi card such as DW1707, DW1820A or DW1560A)
 
+Note : I have made a video on how to install DW1820A since it's the one i'm using --> please [click here](https://www.youtube.com/watch?v=KttwKmIwOBU&t=20s) to check it out.
+
 
 What you need : 
 - [Clover Configurator](https://www.macupdate.com/app/mac/61090/clover-configurator) 
