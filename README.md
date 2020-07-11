@@ -29,7 +29,7 @@ Note : Sound on headphones is also working, please follow 'Headphones sound fix'
 
 
 What is not working : 
-- sleep/wake 
+- sleep/wake (works after BIOS editing)
 - wifi (you can still purchase a macOs compatible wifi card such as DW1707, DW1820A or DW1560A)
 
 Note : I have made a video on how to install DW1820A wifi card since it's the one i'm using --> please click on this link [DW1820A install](https://www.youtube.com/watch?v=KttwKmIwOBU&t=20s) to check it out. If you still have some issues, please click on my [DW1820 new install video](https://www.youtube.com/watch?v=oJv-9YmtnhE&t=1s)
