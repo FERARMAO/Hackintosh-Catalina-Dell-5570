@@ -22,11 +22,11 @@ What is working :
 - Graphics acceleration
 - audio/ microphone/ audio control (F2 & F3)
 - trackpad
-- display brightness/ brightness control (F11 & F12)
+- display brightness/ brightness control (F11 & F12) + HDMI ( To enable it, add Boot/Arguments : agdpmod=vit9696 )
 - battery managment
 - HDMI (Video and sound)
 
-Note : Sound on headphones is also working, please follow 'Headphones sound fix' down below.
+Note : Sound on headphones is also working, please follow 'Headphones sound fix' down below. 
 
 What is not working : 
 - sleep/wake (works after BIOS editing)
