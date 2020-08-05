@@ -24,9 +24,17 @@ What is working :
 - trackpad
 - display brightness/ brightness control (F11 & F12)
 - battery managment
+- HDMI (Video and sound)
 
 Note : Sound on headphones is also working, please follow 'Headphones sound fix' down below. 
 
+Note 2: To HDMI work perfectly, it is necessary:
+- Go to Clover Configurator, go to Mount EFI and mount the your EFI partition;
+- Open the partition and open the file: /EFI/CLOVER/config.plist
+- In Clover, open Boot tab and in Boot Arguments panel, click with right mouse and add option: 
+
+`WhateverGreen/agdpmod=vit9696`
+- Save the alterations, restart your computer and check if worked.
 
 What is not working : 
 - sleep/wake (works after BIOS editing)
@@ -55,17 +63,3 @@ Restart your pc, headphones sound should be fixed.
 ### !Important! : 
 I haven't done any BIOS editing so it's by default.
 You can edit your BIOS by following [this guide](https://www.tonymacx86.com/threads/success-with-dell-inspiron-5570-macos-catalina-installation-with-and-without-the-dangerous-bios-editing.298391/) but **DO IT AT YOUR OWN RISK !** I am not responsible of any damages you can have on your laptop.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
