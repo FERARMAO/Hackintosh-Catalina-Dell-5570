@@ -26,15 +26,7 @@ What is working :
 - battery managment
 - HDMI (Video and sound)
 
-Note : Sound on headphones is also working, please follow 'Headphones sound fix' down below. 
-
-Note 2: To HDMI work perfectly, it is necessary:
-- Go to Clover Configurator, go to Mount EFI and mount the your EFI partition;
-- Open the partition and open the file: /EFI/CLOVER/config.plist
-- In Clover, open Boot tab and in Boot Arguments panel, click with right mouse and add option: 
-
-`WhateverGreen/agdpmod=vit9696`
-- Save the alterations, restart your computer and check if worked.
+Note : Sound on headphones is also working, please follow 'Headphones sound fix' down below.
 
 What is not working : 
 - sleep/wake (works after BIOS editing)
@@ -56,8 +48,12 @@ That's pretty much it, now restart your laptop.
 
 
 ### Headphones sound fix
-Go to EFI/clover/kexts/other and copy codeccommander.kext and paste it in /Library/Extensions, then run kext utility, type your password, and don't close it until it's done setting up proper permissions.
-Restart your pc, headphones sound should be fixed. 
+Go to EFI/CLOVER/kexts/other and copy codeccommander.kext and paste it in /Library/Extensions, then run kext utility, type your password, and don't close it until it's done setting up proper permissions.
+Restart your PC, headphones sound should be fixed. 
+
+### HDMI video and sound fix
+Open /EFI/CLOVER/config.plist in Clover Configurator.
+Open Boot tab and in Boot Arguments panel, right click and add the option: `WhateverGreen/agdpmod=vit9696`. Save, restart your PC and check if it worked.
 
 
 ### !Important! : 
