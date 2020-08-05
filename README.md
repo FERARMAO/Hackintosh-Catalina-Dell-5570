@@ -53,7 +53,7 @@ Restart your PC, headphones sound should be fixed.
 
 ### HDMI video and sound fix
 Open /EFI/CLOVER/config.plist in Clover Configurator.
-Open Boot tab and in Boot Arguments panel, right click and add the option: `WhateverGreen/agdpmod=vit9696`. Save, restart your PC and check if it worked.
+Open Boot tab and in Boot Arguments panel, right-click and add the option: `WhateverGreen/agdpmod=vit9696`. Save, restart your PC and check if it worked.
 
 
 ### !Important! : 
